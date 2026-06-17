@@ -1,6 +1,10 @@
 function firstChar(text) {
 	let modi = text.trim()
-	return modi[0]
+	if( modi[0] === undefined ) {
+		return ""
+	} else {
+		return modi[0]
+	}
 }
 
 
